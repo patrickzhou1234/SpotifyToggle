@@ -9,4 +9,12 @@ def getToken():
 
     accessToken = response.json()['accessToken']
 
+    timeExpired = response.json()['accessTokenExpirationTimestampMs']
+
+    f = open("variables.txt", "w")
+
+    f.write(str(timeExpired)+"\n"+str(accessToken))
+    
+    f.close()
+
     return accessToken

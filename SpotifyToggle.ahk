@@ -14,3 +14,11 @@ if (i) {
     i:=true
 }
 return
+
+F5::
+Run, %localappdata%\Programs\Python\Python39\pythonw.exe prev.py
+return
+
+F7::
+Run, %localappdata%\Programs\Python\Python39\pythonw.exe next.py
+return

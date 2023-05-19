@@ -17,8 +17,10 @@ return
 
 F5::
 Run, %localappdata%\Programs\Python\Python39\pythonw.exe prev.py
+i:=true
 return
 
 F7::
 Run, %localappdata%\Programs\Python\Python39\pythonw.exe next.py
+i:=true
 return

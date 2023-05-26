@@ -3,4 +3,4 @@ from checkTime import checkTime
 
 accessToken = checkTime()
 
-command(accessToken, "skip_next")
+command(accessToken, "skip_next", "simple")

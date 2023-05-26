@@ -24,3 +24,7 @@ F7::
 Run, %localappdata%\Programs\Python\Python39\pythonw.exe next.py
 i:=true
 return
+
+F8::
+Run, %localappdata%\Programs\Python\Python39\pythonw.exe onrepeat.py
+return

@@ -3,4 +3,4 @@ from checkTime import checkTime
 
 accessToken = checkTime()
 
-command(accessToken, "resume")
+command(accessToken, "resume", "simple")

@@ -1,12 +1,11 @@
 import requests
-import browser_cookie3
 
 def getToken():
     url = "https://open.spotify.com/get_access_token?reason=transport&productType=web_player"
 
-    cookie = browser_cookie3.chrome()
+    cookie = "your cookie here"
 
-    response = requests.get(url, cookies=cookie)
+    response = requests.get(url, headers={"cookie": cookie})
 
     accessToken = response.json()['accessToken']
 
